@@ -1,0 +1,7 @@
+### log 받아오는 절차
+* git 복제하기
+  * git clone https://github.com/jeesim2/testgit.git
+* fetch 하기
+  * git fetch
+* 커밋조회
+  * git log  --all --since="2016-01-01" --pretty=format:"%h ||| %an |||  %ae |||  %ci |||  %s ||| %N"
